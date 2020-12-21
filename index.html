@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Mobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" 
+        crossorigin="anonymous">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons"></div>
+        <i class="fas fa-search"></i>
+        <i class="fas fa-ellipsis-v"></i>
+    </header>
+    <!-- Video Player -->
+    <section class="player">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/gdZLi9oWNZg" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </section>
+    <!-- VideoInfo -->
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#k-pop</li>
+                <li>#BTS</li>
+                <li>#BTS_Dynamite</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="title">
+                    BTS (방탄소년단) 'Dynamite' Official MV
+                </span>
+                <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+            </div>
+            <div class="info__views"></div>
+            <span class="views">700M views. released:2020.08.21</span>
+        </div>
+        <ul class="actions">
+            <li>
+                <button><i class="far fa-thumbs-up"></i><span>230M</span></button>
+            </li>
+            <li>
+                <button><i class="far fa-thumbs-down"></i><span>1.3M</span></button>
+                </li>
+            <li>
+                <button><i class="fas fa-share"></i><span>Share</span></button>
+            </li>
+            <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+            </li>
+            <li>
+                <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+            </li>
+        </ul>
+        <div class="channel">
+            <div class="metadata">
+                <img src="img/bts.png" alt="avatar">
+                <div class="info">
+                    <span class="name">Big Hit Labels</span>
+                    <span class="subscribers"> 49.3K subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+    <!-- Upnext -->
+    <section class="upNext">
+        <span class="title">Up Next</span>
+        <li class="item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-5q5mZbe3V8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="info">
+                <span class="title">BTS (방탄소년단) 'Life Goes On' Official MV</span>
+                <span class="name">Big Hit Labels</span>
+                <span class="views">200M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7C2z4GqqS5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="info">
+                <span class="title">BTS (방탄소년단) 'FAKE LOVE' Official MV</span>
+                <span class="name">Big Hit Labels</span>
+                <span class="views">250M views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+    </section>
+</body>
+</html>
